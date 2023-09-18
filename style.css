@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+#top {
+  position: sticky;
+  top: 0;
+  background-color: #4e4e4e;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#form {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#word {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#lookup {
+  background-color: #2dabf9;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#lookup:hover {
+  background-color: #0688fa;
+}
+
+#show {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 18px;
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.type {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.definition {
+  font-size: 14px;
+}
